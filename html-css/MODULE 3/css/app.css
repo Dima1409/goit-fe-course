@@ -1,58 +1,92 @@
-* {
+html {
     box-sizing: border-box;
 }
 
-.main-header li {
-    display: inline-block;
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.site-navigation {
+    margin: 0;
+    padding: 0;
     text-align: center;
-    height: 40px;
-    width: 300px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.main-header a {
-    text-decoration: none;
     text-transform: uppercase;
+    vertical-align: middle;
+    font-size: 14px;
+    
+}
+.site-navigation a{
+    text-decoration: none;   
+ }
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: red;
+}
+.nav-head {
+    padding: 77px 0;   
 }
 
-.left {
+.site-navigation li {
     display: inline-block;
-    height: 120px;
-    width: 48%;  
+    margin: 0;
+    padding: 0;     
 }
-.right {
+.site-navigation li:last-child {
+    margin-right: 0;
+}
+.span {
+    display: block;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+img {
+    display: block;
+    margin-bottom: 10px;
+}
+.art {
     display: inline-block;
-    height: 120px;
-    width: 48%;  
-
+    width: 420px;
+    margin-right: 28px;
+    margin-left: 0;
 }
-
-  .left2 {
-      display: inline-block;
-      height: 120px;
-      width: 48%;
+.arti {
+    display: inline-block;
+    width: 420px;
+    margin-left: 28px;
+    margin-right: 0;
 }
-
-  .right2 {
-      display: inline-block;
-      height: 120px;
-      width: 48%;
-  }
-
-  .left3 {
-      display: inline-block;
-      height: 120px;
-      width: 48%;
-  }
-
-  .right3 {
-      display: inline-block;
-      height: 120px;
-      width: 48%;
-  }
-
-  .button {
-      text-align: center;
-      display: inline-block;
-  }
- 
+.button {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 30px 15px 30px;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+.site-navigation ul {
+    margin: 0;
+    padding: 0;
+}
+.link {
+    margin-left: auto;
+    margin-right: 100px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 100px;
+}
+p {
+    margin-bottom: 135px;
+}
+.link, .button, .container {
+    color: #626262;
+}
+h2 {
+    font-size: 30px;
+}
