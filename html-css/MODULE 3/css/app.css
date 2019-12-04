@@ -12,6 +12,7 @@ html {
 }
 .sect {
     font-size: 0;
+    display: block;
 }
 
 .site-navigation {
@@ -27,19 +28,22 @@ html {
     text-decoration: none;   
  }
 
-.site-navigation a:hover,
+.site-navigation a:hover {
+    color: blueviolet;
+}
 .site-navigation a:focus {
     color: red;
 }
 .nav-head {
-    padding: 77px 0;   
+    padding: 77px 0; 
 }
 
 .site-navigation li {
     display: inline-block;
     margin: 0;
     padding: 0; 
-    margin-right: 100px;    
+    margin-right: 80px;
+    line-height: 24px;    
 }
 .site-navigation li:last-child {
     margin-right: 0;
@@ -55,23 +59,26 @@ html {
 img {
     display: block;
     margin-bottom: 10px;
+    width: 420px;
 }
 .art {
     display: inline-block;
     width: 420px;
     margin-right: 60px;
-    margin-left: 0;
 }
 .arti {
     display: inline-block;
     width: 420px;
-    margin-right: 0;
+    margin: 0;
 }
 .button {
     display: block;
     text-align: center;
     padding: 15px 30px 15px 30px;
     font-size: 20px;
+    margin: 0 auto;
+    line-height: 24p;
+    margin-bottom: 70px;
 }
 .site-navigation ul {
     margin: 0;
@@ -87,17 +94,21 @@ img {
 p {
     margin-bottom: 60px;
     font-size: 14px;
+    line-height: 24px;
 }
 .link, .button, .container {
     color: #626262;
-    margin: 0;
 }
 h2 {
     font-size: 30px;
     margin: 0;
     margin-bottom: 40px;
+    color: #626262;
 }
-.button:hover, 
+.button:hover {
+    color: rgb(32, 4, 58);
+} 
 .button:focus {
     color: red;
 }
+
