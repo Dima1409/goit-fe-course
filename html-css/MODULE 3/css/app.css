@@ -54,22 +54,23 @@ html {
     color: #b4ad9e;
    font-size: 14px;
    margin-bottom: 35px;
-   margin-top: 30px;
 }
 img {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     width: 420px;
+    height: auto;
 }
 .art {
     display: inline-block;
     width: 420px;
     margin-right: 60px;
+    vertical-align: top;
 }
 .arti {
     display: inline-block;
     width: 420px;
-    margin: 0;
+    vertical-align: top;
 }
 .button {
     display: block;
@@ -77,7 +78,7 @@ img {
     padding: 15px 30px 15px 30px;
     font-size: 20px;
     margin: 0 auto;
-    line-height: 24p;
+    line-height: 24px;
     margin-bottom: 70px;
 }
 .site-navigation ul {
