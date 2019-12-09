@@ -1,0 +1,219 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+.clearfix::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.body {
+    font-size: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.container {
+    background-color: #ffffff;
+    margin: 0 auto 108px;
+    width: 1110px;
+}
+/* navigation */
+.products {
+    margin-bottom: 100px;
+}
+.site-navigation {
+    font-size: 14px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 480px;
+    float: right;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.site-navigation li {
+    float: left;
+    margin-right: 30px;
+}
+
+.site-navigation li:last-child {
+    margin-right: 0;
+}
+.site-logo {
+    display: inline-block;
+}
+.page-nav {
+    padding: 42px 0;
+}
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #1abc9c;
+}
+
+.site-navigation a {
+    color: #0f0101;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* main-product */
+
+.title {
+    font-size: 48px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #515151;
+    margin: 0;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.title::after {
+display: block;
+content: "";
+height: 7px;
+width: 164px;
+margin: 34px auto 0;
+background-color: #1abc9c;
+margin-bottom: 94px;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+}
+
+.list-item {
+    list-style: none;
+    float: left;
+    margin-right: 30px;
+    width: 255px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.list-item a:hover {
+    color: #1abc9c;
+}
+
+.list-item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.link-item {
+    display: block;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+    background-color: #323232;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: left;
+    height: 40px;
+    width: 200px;
+    vertical-align: middle;
+    padding-left: 14px;
+    font-weight: 900;
+}
+
+.linl-item:hover,
+.link-item:focus {
+    color: #1abc9c;
+}
+
+.price {
+    height: 40px;
+    width: 54px;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #8c8c8c;
+    color: #ffffff;
+    margin-left: 200px;
+}
+
+.list-news {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.list-item-news {
+    width: 350px;
+    float: left;
+    margin-right: 30px;
+}
+
+.list-item-news:last-child {
+    margin-right: 0;
+}
+
+.news-image {
+    margin-bottom: 14px;
+}
+
+.paragraph-heading {
+    margin: 0 0 16px 0;
+    font-size: 18px;
+    line-height: 26px;
+    color: #555252;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.paragraph-heading::after {
+    display: block;
+    height: 4px;
+    width: 136px;
+    margin-top: 14px;
+    margin-bottom: 30px;
+    background-color: #1abc9c;
+    content: "";
+}
+
+.paragraph {
+    margin: 0 0 38px 0;
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #555252;
+}
+
+.readmore {
+    background-color: #4ec6ab;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 26px;
+    cursor: pointer;
+    margin: 18px 0 84px 0;
+    padding: 20px 42px;
+    border-radius: 6px;
+    height: 52px;
+    width: 160px;
+    text-decoration: none;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
