@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
     box-sizing: border-box;
 }
@@ -118,3 +119,125 @@ h2 {
 .button:focus {
     color: red;
 }
+=======
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+.sect {
+    font-size: 0;
+    display: block;
+    padding-bottom: 70px;
+}
+
+.site-navigation {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-size: 0px;
+    
+}
+.site-navigation a{
+    text-decoration: none;   
+ }
+
+.site-navigation a:hover {
+    color: blueviolet;
+}
+.site-navigation a:focus {
+    color: red;
+}
+.nav-head {
+    padding: 77px 0; 
+}
+
+.site-navigation li {
+    display: inline-block;
+    margin: 0;
+    padding: 0; 
+    margin-right: 80px;
+    line-height: 24px;    
+}
+.site-navigation li:last-child {
+    margin-right: 0;
+}
+.span {
+    display: block;
+    text-transform: uppercase;
+    color: #b4ad9e;
+   font-size: 14px;
+   margin-bottom: 35px;
+}
+img {
+    display: block;
+    margin-bottom: 30px;
+    width: 420px;
+    height: auto;
+    margin-bottom: 30px;
+}
+.art {
+    display: inline-block;
+    width: 420px;
+    margin-right: 60px;
+    vertical-align: top;
+    margin-bottom: 60px;
+}
+.arti {
+    display: inline-block;
+    width: 420px;
+    vertical-align: top;
+}
+.button {
+    display: block;
+    text-align: center;
+    padding: 15px 30px 15px 30px;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 24px;
+}
+.site-navigation ul {
+    margin: 0;
+    padding: 0;
+}
+.link {
+    font-size: 14px;
+    line-height: 24px;
+}
+.link:last-child{
+    margin-right: 0;
+}
+p {
+    margin-bottom: 60px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 0;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+.link, .button, .container {
+    color: #626262;
+}
+h2 {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 40px;
+    color: #626262;
+}
+.button:hover {
+    color: rgb(32, 4, 58);
+} 
+.button:focus {
+    color: red;
+}
+>>>>>>> 1e9322fc90ed1ff8f341dcff2b91ef4312a157f1
