@@ -60,7 +60,7 @@ img {
 }
 
 .site-logo:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .site-navigation a {
@@ -317,19 +317,19 @@ NEW COLLECTION */
 
 .one {
     background-position: center;
-    background-image: url(/image/like.png);
+    background-image: url(../image/like.png);
     background-repeat: no-repeat;
 }
 
 .two {
     background-position: center;
-    background-image: url(/image/2.png);
+    background-image: url(../image/2.png);
     background-repeat: no-repeat;
 }
 
 .three {
     background-position: center;
-    background-image: url(/image/time.png);
+    background-image: url(../image/time.png);
     background-repeat: no-repeat;
     margin-bottom: 10px;
 }
@@ -352,7 +352,7 @@ NEW COLLECTION */
     width: 30px;
     height: 30px;
     position: absolute;
-    background-image: url(/image/add.png);
+    background-image: url(../image/add.png);
     background-repeat: no-repeat;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -399,5 +399,3 @@ NEW COLLECTION */
     text-decoration: none;
     color: #45b6a1;
 }
-
-
