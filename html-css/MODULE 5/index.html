@@ -7,8 +7,13 @@
     <title>Document</title>
     
     <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
+    <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
+    rel="stylesheet"/>
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap"
+    rel="stylesheet"/>
 
 
     <title>MART</title>
@@ -17,14 +22,14 @@
 <body>
 
     <!-- <HEADER> -->
-    <div class="container clearfix">
-    <header class="head">
+    
+    <header>
         <nav class="page-navigation">
             <a href="#" class="site-logo">
-                <img src="image/mart.png" alt="site-logo" width="78" height="21">
+               mart
             </a>
 
-            <ul class="site-navigation">
+            <ul class="site-navigation clearfix">
                 <li>
                     <a href="#">home</a>
                 </li>
@@ -49,169 +54,142 @@
 
 
     <!-- <SLIDER> -->
+        <main>
 
-        <div class="slider">
-            <button class="slider-ctrl slider-ctrl-prev">
-                <img class="background-image" src="image/left.png" alt="right" width="22" height="38">
-            </button>
-            <button class="slider-ctrl slider-ctrl-next">
-                <img class="background-image" src="image/right.png" alt="left" width="22" height="38">
-            </button>
-           
-            
+
+        <div class="slider container">
+                        
         <ul class="slides">
             <li class="slides-item">
-                <img src="image/Back.jpg" alt="back" class="slides-image" height="600" width="1600">
-                <p class="slides-descr">
-                    Affordable Paris tours
-                   <br> <span>city tours/tour tickets/tour guides</span>
-                </p>
+                <img src="image/Back.jpg" alt="slider" class="slides-image" width="1600" height="600">
+                
+                <div class="cover-image"></div>
+                <div class="button-text">
+
+                    <button class="slider-ctrl slider-ctrl-prev"></button>
+                    <button class="slider-ctrl slider-ctrl-next"></button>
+
+                    <p class="slides-text">
+                        affordable paris tours <br>
+                        <span>city tours / tour tickets / tour gides</span>
+                    </p>
+                </div>
             </li>
         </ul>
         </div>
 
 <!-- <NEW COLLECTION> -->
+    <section class="products container">
 
-         <main class="main-item">
-            <p class="new-collection">
-                New collection
-            </p>
+            <h2 class="section-title">
+                new collection
+            </h2>
             
             
-                <ul class="card-gallery">
+                <ul class="card-gallery clearfix">
 
                     <!-- ITEM1 -->
 
-                    <li class="card-item">
-                        <div class="overlay">
-                            <img src="image/opy.png" alt="opacity">
-
-                            <div class="modal-butt">
-                                <ul class="buttons">
-                                   <li class="buttons-list">
-                                       <button class="modal-button one"></button>
-                                   </li>
-                                   <li class="buttons-list">
-                                       <button class="modal-button two"></button>
-                                   </li>
-                                   <li class="buttons-list">
-                                       <button class="modal-button three"></button>
-                                   </li>
-                                   <li class="buttons-list">
-                                       <button class="modal-button four">Add to cart</button>
-                                   </li>
-                                </ul>
-                               </div>
-
-                        </div>
+                    <li class="card-item clearfix">
+                        
                         <img src="image/Item1.jpg" alt="item1" width="255" height="322">
-                        <a class="link-item" href="#">Blue Tshirt</a>
-                        <div class="price">$26</div>
+
+                        <div class="name-price">
+                            <a href="#" class="product-link">blue tshirt</a>
+                            <div class="price">$26</div>
+                        </div>
+
+                <div class="overlay">
+                    <div class="overlay-icon-over clearfix">
+                        <button class="overlay-icon one"></button>
+                        <button class="overlay-icon two"></button>
+                        <button class="overlay-icon three"></button>
+                        <button class="overlay-icon four">add to cart</button>
+                    </div>
+                </div>        
                     </li>
 
                     <!-- ITEM2 -->
 
-                    <li class="card-item">
-                        <div class="overlay">
-                            <img src="image/opy.png" alt="opacity">
-
-                            <div class="modal-butt">
-                             <ul class="buttons">
-                                <li class="buttons-list">
-                                    <button class="modal-button one"></button>
-                                </li>
-                                <li class="buttons-list">
-                                    <button class="modal-button two"></button>
-                                </li>
-                                <li class="buttons-list">
-                                    <button class="modal-button three"></button>
-                                </li>
-                                <li class="buttons-list">
-                                    <button class="modal-button four">Add to cart</button>
-                                </li>
-                             </ul>
-                            </div>
-                            
-                        </div>
+                    <li class="card-item clearfix">
+                        
                         <img src="image/Item2.jpg" alt="item2" width="255" height="322">
-                        <a class="link-item" href="#">Woman shirt</a>
-                        <div class="price">$31</div>
+
+                        <div class="name-price">
+                            <a href="#" class="product-link">woman shirt</a>
+                            <div class="price">$31</div>
+                        </div>
+
+                <div class="overlay">
+                    <div class="overlay-icon-over clearfix">
+                        <button class="overlay-icon one"></button>
+                        <button class="overlay-icon two"></button>
+                        <button class="overlay-icon three"></button>
+                        <button class="overlay-icon four">add to cart</button>
+                    </div>
+                </div>        
                     </li>
 
                     <!-- ITEM3 -->
 
-                    <li class="card-item">
-                        <div class="overlay">
-                            <img src="image/opy.png" alt="opacity">
-                            <div class="modal-butt">
-                                <ul class="buttons">
-                                   <li class="buttons-list">
-                                       <button class="modal-button one"></button>
-                                   </li>
-                                   <li class="buttons-list">
-                                       <button class="modal-button two"></button>
-                                   </li>
-                                   <li class="buttons-list">
-                                       <button class="modal-button three"></button>
-                                   </li>
-                                   <li class="buttons-list">
-                                       <button class="modal-button four">Add to cart</button>
-                                   </li>
-                                </ul>
-                               </div>
-
-                        </div>
+                    <li class="card-item clearfix">
+                        
                         <img src="image/Item3.jpg" alt="item3" width="255" height="322">
-                        <a class="link-item" href="#">Yellow Tshirt</a>
-                        <div class="price">$21</div>
+
+                        <div class="name-price">
+                            <a href="#" class="product-link">yellow tshirt</a>
+                            <div class="price">$21</div>
+                        </div>
+
+                <div class="overlay">
+                    <div class="overlay-icon-over clearfix">
+                        <button class="overlay-icon one"></button>
+                        <button class="overlay-icon two"></button>
+                        <button class="overlay-icon three"></button>
+                        <button class="overlay-icon four">add to cart</button>
+                    </div>
+                </div>        
                     </li>
 
                     <!-- ITEM4 -->
-                    
-                    <li class="card-item">
-                        <div class="overlay">
-                            <img src="image/opy.png" alt="opacity"> 
-                            <div class="modal-butt">
-                                <ul class="buttons">
-                                   <li class="buttons-list">
-                                       <button class="modal-button one"></button>
-                                   </li>
-                                   <li class="buttons-list">
-                                       <button class="modal-button two"></button>
-                                   </li>
-                                   <li class="buttons-list">
-                                       <button class="modal-button three"></button>
-                                   </li>
-                                   <li class="buttons-list">
-                                       <button class="modal-button four">Add to cart</button>
-                                   </li>
-                                </ul>
-                               </div>
+                    <li class="card-item clearfix">
+                        
+                        <img src="image/Item4.jpg" alt="item1" width="255" height="322">
 
+                        <div class="name-price">
+                            <a href="#" class="product-link">cool ligrenie</a>
+                            <div class="price">$56</div>
                         </div>
-                        <img src="image/Item4.jpg" alt="item4" width="255" height="322">
-                        <a class="link-item" href="#">Cool ligrenie</a>
-                        <div class="price">$56</div>
+
+                <div class="overlay">
+                    <div class="overlay-icon-over clearfix">
+                        <button class="overlay-icon one"></button>
+                        <button class="overlay-icon two"></button>
+                        <button class="overlay-icon three"></button>
+                        <button class="overlay-icon four">add to cart</button>
+                    </div>
+                </div>        
                     </li>
                 </ul>
+    </section>
 
          </main>
 
          <!-- <FOOTER> -->
 
-            <footer class="page-footer">
-                <ul class="footer-list">
-                    <li class="footer-list-item">
-                        All Rights Reserved &copy; Dokan
-                    </li>
-                    <li class="footer-list-item"> 
-                        Designed <a class="footer-link" href="#">ThemenGraph</a>
-                    </li>
-                </ul>
+            <footer>
+                <div class="footer container">
+
+                 <p class="footer-text">
+                    All rights reserved &copy; dokan | designed
+                    <a class="footer-link" href="#">ThemenGraph</a>  
+                </p>   
+
+
+                </div>
+                
             </footer>
             
-   
-    </div> 
 
 
     </body>
