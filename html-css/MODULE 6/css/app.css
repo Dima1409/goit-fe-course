@@ -32,6 +32,7 @@ img {
     justify-content: space-between;
     align-items: flex-end;
     min-height: 50px;
+    margin-bottom: 120px;
 }
 
 .site-logo {
@@ -40,6 +41,10 @@ img {
     color: #95e1d3;
     text-decoration: none;   
     font-weight: bold;
+}
+
+.site-logo:hover {
+    color: #f38181;
 }
 
 .site-navigation {
@@ -101,7 +106,7 @@ img {
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
-    margin: 110px auto;
+    padding-bottom: 110px;
 }
 
 .features-title span {
@@ -132,6 +137,7 @@ img {
     padding: 0;
     justify-content: flex-end;
     flex-wrap: wrap;
+    padding-bottom: 100px;
 }
 
 .features-list-item {
@@ -164,12 +170,45 @@ img {
     color: #999999;
 }
 
-
-.one, .two, .three, .four, .five, .six {
+.features-list-item::before{
+    content: '';
+    display: table;
+    clear: both;
     position: absolute;
-    left: -60px;
+    right: 100%;
+    width: 80px;
+    height: 80px;
 
+    background-repeat: no-repeat;
+    background-position: top;
 }
+
+.clock::before {
+    background-image: url(../images/section/ALARM.png);
+}
+
+.web::before {
+    background-image: url(../images/section/Digital.png);
+}
+
+.creative::before {
+    background-image: url(../images/section/BOOK.png);
+}
+
+.seo::before {
+    background-image: url(../images/section/COMPUTER\ _\ OK.png);
+}
+
+.css::before {
+    background-image: url(../images/section/HOME.png);
+}
+
+
+.digital::before {
+    background-image: url(../images/section/LINE\ GRAPH.png);
+}
+
+
 
 .team {
     margin: 0 auto;
@@ -209,7 +248,7 @@ img {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
     text-transform: uppercase;
-    margin: 12px;
+    margin: 0;
 }
 
 .pos {
@@ -219,12 +258,12 @@ img {
     font-size: 15px;
     color: #999999;
     line-height: 24px;
-    margin-bottom: 86px;
+    padding-bottom: 86px;
 }
 
 .overlay {
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     transition: 200ms;
     font-size: 0;
     width: 100%;
@@ -237,7 +276,8 @@ img {
 
 .button-overlay {
     position: absolute;
-    display: none;
+    opacity: 0;
+    transition: 400ms;
     top: 0;
     bottom: 0;
     margin: auto;
@@ -250,6 +290,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 1;
 }
 
 .overlay-icon{
