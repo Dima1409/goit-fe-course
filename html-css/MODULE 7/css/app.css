@@ -54,7 +54,6 @@ NAVIGATION */
 
 .logo {
     text-decoration: none;
-    text-transform: uppercase;
 }
 
 .logo h2 {
@@ -104,6 +103,7 @@ NAVIGATION */
 
 .part-one {
     text-align: center;
+    margin: 124px auto 0;
 }
 
 .part-one h2 {
@@ -114,6 +114,7 @@ NAVIGATION */
     font-weight: 600;
     font-family: 'Montserrat';
     text-transform: uppercase;
+    margin-bottom: 24px;
 } 
 
 .part-one p {
@@ -126,22 +127,26 @@ NAVIGATION */
 
 .service-list {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: space-around;
+    align-items: flex-end;
     text-align: center;
     list-style: none;
     height: 270px;
 }
 
 .list-item {
-    position: relative;
     width: 290px;
+}
+
+.list-item img {
+    margin-bottom: 14px;
 }
 
 .list-item h3 {
     font-family: 'Montserrat';
     font-size: 18px;
     font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .list-item p {
@@ -151,30 +156,6 @@ NAVIGATION */
     color: #777777;
 }
 
-.list-item::before {
-    content: '';
-    position: absolute;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 72px;
-    height: 72px;
-    border-radius: 50%;
-    border: 2px solid #fed136;
-    top: 120%;
-    right: 35%;
-}
-
-.basket::before {
-    background-image: url(../image/icons/Basket.png);
-}
-
-.laptop::before {
-    background-image: url(../image/icons/Laptop.png);
-}
-
-.locked::before {
-    background-image: url(../image/icons/Locked.png);
-}
 
 /* CONTACT */
 
@@ -183,13 +164,15 @@ NAVIGATION */
     background-image: url(../image/Map.png);
     background-repeat: no-repeat;
     width: 100%;
-    height: 675px;
     background-position-x: right;
     background-position-y: bottom;
+    padding-bottom: 75px;
+    border: 20px solid transparent;
 }
 
 .part-two {
     text-align: center;
+    padding: 110px 0 75px;
 }
 
 .part-two h2 {
@@ -199,6 +182,7 @@ NAVIGATION */
     color: #ffffff;
     font-family: 'Montserrat';
     text-transform: uppercase;
+    margin-bottom: 25px;
 }
 
 .part-two p {
@@ -225,20 +209,20 @@ NAVIGATION */
 .input-form {
     font-family: 'Montserrat';
     font-size: 14px;
+    font-weight: 600;
     padding-left: 12px;
-    width: 445px;
+    width: 444px;
     height: 55px;
-    transition: linear 100ms;
     outline: none;
     border-radius: 4px;
 }
 
 .input-form:valid {
-    border: 2px solid rgb(172, 255, 47);
+    border: 1px solid rgb(172, 255, 47);
 }
 
 .input-form:invalid {
-    border: 2px solid rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
 }
 
 .message-form {
@@ -246,11 +230,9 @@ NAVIGATION */
     width: 445px;
     height: 210px;
     border-radius: 4px;
+    padding: 10px 0 0 10px;
 }
 
-.message-form:focus {
-    border: 2px solid rgb(172, 255, 47)
-}
 
 .send-message {
     font-size: 18px;
