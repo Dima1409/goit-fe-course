@@ -76,6 +76,7 @@ NAVIGATION */
 
 
 .link-navigation {
+    display: block;
     font-family: 'Montserrat';
     font-size: 14px;
     line-height: 41px;
@@ -92,11 +93,11 @@ NAVIGATION */
 
 /* SERVICE */
 
-.menu {
-    max-width: 1600px;
-    padding: 0;
+.container {
+    width: 1400px;
     margin: 0 auto;
 }
+
 
 .service {
     margin: 0 auto;
@@ -138,11 +139,42 @@ NAVIGATION */
 
 .list-item {
     width: 290px;
+    position: relative;
 }
 
-.list-item img {
-    margin-bottom: 14px;
+.list-item::before{
+    content: '';
+    display: table;
+    clear: both;
+    position: absolute;
+    width: 76px;
+    height: 76px;
+
+    background-repeat: no-repeat;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-position: center;
 }
+
+.basket::before {
+    background-image: url(../image/icons/Basket.png);
+}
+
+.laptop::before {
+    background-image: url(../image/icons/Laptop.png);
+}
+
+.locked::before {
+    background-image: url(../image/icons/Locked.png);
+}
+
+
+
+
+/* .list-item img {
+    margin-bottom: 14px;
+} */
 
 .list-item h3 {
     font-family: 'Montserrat';
@@ -169,7 +201,7 @@ NAVIGATION */
     background-position-x: right;
     background-position-y: bottom;
     padding-bottom: 75px;
-    border: 20px solid transparent;
+    /* border: 20px solid transparent; */
 }
 
 .part-two {
