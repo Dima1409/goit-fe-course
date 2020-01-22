@@ -1,0 +1,90 @@
+@media (min-width:768px) {
+    .container {
+        margin: 0 auto;
+        width: 748px;
+    }
+    .main-header {
+        min-width: 670px;
+    }
+    .background {
+        height: 700px;
+    }
+    .page-navigation {
+        min-height: 78px;
+        padding-bottom: 150px;
+        flex-direction: row;
+    }
+    .holiday {
+        margin: 0 auto;
+        padding: 0;
+        width: 492px;
+    }
+    .holiday-title {
+        width: 100%;
+        font-size: 50px;
+        margin-bottom: 38px;
+    }
+    .holiday-button {
+        margin: 0 auto;
+    }
+    .holiday-par {
+        font-size: 24px;
+        margin-bottom: 38px;
+    }
+    .members-title {
+        margin-bottom: 38px;
+    }
+    .members-list {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 492px;
+        margin-bottom: 38px;
+    }
+    .members-list-item {
+        width: 236px;
+        margin: 0;
+    }
+    .member-1 {
+        order: 0;
+    }
+    .member-2 {
+        order: 2;
+    }
+    .member-3 {
+        order: 1;
+    }
+    .member-4 {
+        order: 3;
+    }
+    .members-list-item:nth-child(2n) {
+        margin-bottom: 0;
+    }
+    .members-list-item:nth-child(2n+1) {
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width:942px) {
+    .container {
+        width: 942px;
+    }
+    .main-header {
+        min-width: 942px;
+    }
+    .holiday {
+        width: 500px;
+    }
+    .members-list {
+        width: 942px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .members-list-item {
+        width: 220px;
+        margin: 0;
+    }
+    
+}
